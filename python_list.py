@@ -1,11 +1,9 @@
-name = "sai"
-age = 20
-height = 5.3
-is_student = True
+students = ["Anil", "Rahul", "Ravi", "Kiran"]
 
-print(name)
-print(age)
-print(height)
-print(is_student)
-age = 21
-print(" New age:",age)
+print(students)
+
+print(students[0])
+
+students.append("Arjun")
+
+print(students)
